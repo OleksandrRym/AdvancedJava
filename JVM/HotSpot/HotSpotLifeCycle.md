@@ -2,7 +2,7 @@
 
 ## Basic JVM
 
-![test](assetss/HotSpotAnatomy.png)
+![1](JVM/HotSpot/assetss/HotSpotAnatomy.png)
 
 - ### Interpret - executes byte code instruction by instruction
 - ### Profile - store and collect statistic
