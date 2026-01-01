@@ -2,7 +2,7 @@
 
 ## Basic JVM
 
-![1](JVM/HotSpot/assetss/HotSpotAnatomy.png)
+![1](HotSpotAnatomy.png)
 
 - ### Interpret - executes byte code instruction by instruction
 - ### Profile - store and collect statistic
@@ -41,7 +41,7 @@
 ## Inlining Optimizations
 - ### When we call method(A) inside method(B) in body (B) we recive body (A)
 
-![](assetss/inliningInPractice.png)
+![](inliningInPractice.png)
 
 ---
 
@@ -56,4 +56,4 @@
 - Not Entrant: method do invalidate , but old thread can execute this code ( by deoptimizer)
 - Zombie: Sweeper check all threads - and 0 threads use it ( so, this code stay in memory - but unused)
 - Inactive (Reclaimed): Sweeper remove method, and free space go to Free-list
-![](assetss/HSA+CC.png)
+![](HSA+CC.png)
