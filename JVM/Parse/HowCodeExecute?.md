@@ -8,7 +8,7 @@
 
 ### - Java Code
 
-![](hello_world.png)
+![](img/hello_world.png)
 
 ### - Tokens (Lexical Analysis)
 
@@ -19,7 +19,7 @@ Whitespace is mostly ignored — but it is NOT the main rule.
 
 Convert Tokens to AST
 
-![](ASTree.png)
+![](img/ASTree.png)
 
 ### - Optimize
 
